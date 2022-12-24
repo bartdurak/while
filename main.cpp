@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
-// pętla while nie ma iteracji
+// do Kwhile nie ma iteracji
 int uczniowie = 1; int minut=0;
 
 int main() {
 
-    while (uczniowie <=10)
-    {
-        minut = minut + 4;
+
+        do
+        {
+            minut++;
         uczniowie = uczniowie *2;
         cout << " minęło minut: " << minut;
         cout << " zapytai uczniowie: " << uczniowie<< endl;
-
     }
+        while (uczniowie<<=10);
 return 0;
 }
